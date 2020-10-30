@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorProfile"
+    tools:context=".ProfileActivity">
+
+    <ScrollView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/my_profile_pic"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/my_profile_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Profile name"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:layout_below="@id/my_profile_pic" />
+
+            <TextView
+                android:id="@+id/my_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Username"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:layout_below="@id/my_profile_full_name" />
+
+            <TextView
+                android:id="@+id/my_profile_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Status"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:layout_below="@id/my_username" />
+
+            <TextView
+                android:id="@+id/my_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Country"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:layout_below="@id/my_profile_status" />
+
+            <TextView
+                android:id="@+id/my_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Date Of Birth"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:layout_below="@id/my_country" />
+
+            <TextView
+                android:id="@+id/my_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Gender"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:layout_below="@id/my_dob" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

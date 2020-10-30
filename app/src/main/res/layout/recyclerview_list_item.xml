@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!-- this layout is created to model how a single item in a RecyclerView list looks like -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- this child LinearLayout holds the content of the RecyclerView list item -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_text"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:paddingTop="6.9dp"
+            android:text="New Text"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="8dp"
+            android:padding="6.5dp"
+            app:srcCompat="@drawable/ic_chevron_right_black_arrow"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_gravity="bottom"
+        android:background="#aaaaaa"
+        android:orientation="vertical" />
+
+</LinearLayout>

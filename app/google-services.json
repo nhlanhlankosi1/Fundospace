@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "982406309508",
+    "firebase_url": "https://fundospace-gads.firebaseio.com",
+    "project_id": "fundospace-gads",
+    "storage_bucket": "fundospace-gads.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982406309508:android:557691de28010ebfa304d1",
+        "android_client_info": {
+          "package_name": "com.nhlanhlankosi.fundospace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982406309508-nlrs6hu8mr1nhkqpcbp46acm7otbbr95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZR-EpthxgKGv6PPSQu778jw2mY0pdK28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982406309508-nlrs6hu8mr1nhkqpcbp46acm7otbbr95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
